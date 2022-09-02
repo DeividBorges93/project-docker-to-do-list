@@ -1,4 +1,5 @@
-- [Trybe Todo-App 🖥️ 📝](#trybe-todo-app-️-)
+<!-- README fornecido pela trybe juntamente com  aplicação -->
+
   - [Requisitos](#requisitos)
   - [Instalação](#instalação)
     - [Estrutura do aplicativo](#estrutura-do-aplicativo)
