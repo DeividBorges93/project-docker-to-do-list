@@ -37,37 +37,37 @@ Os arquivos principais do projeto estão na pasta `docker`, na raiz do projeto. 
 
 </details>
 
-## Comandos docker
+### Comandos docker
 
-### 1. Cria um container em modo interativo, sem rodá-lo, nomeando-o como `01container` e utilizando a imagem `alpine` na versão `3.12`
+#### 1. Cria um container em modo interativo, sem rodá-lo, nomeando-o como `01container` e utilizando a imagem `alpine` na versão `3.12`
 
-### 2. Inicia o container `01container`
+#### 2. Inicia o container `01container`
 
-### 3. Lista os containers filtrando pelo nome `01container`
+#### 3. Lista os containers filtrando pelo nome `01container`
 
-### 4. Executa o comando `cat /etc/os-release` no container `01container` sem se acoplar a ele
+#### 4. Executa o comando `cat /etc/os-release` no container `01container` sem se acoplar a ele
 
-### 5. Remove o container `01container`
+#### 5. Remove o container `01container`
 
-### 6. Faz o download da imagem `nginx` com a versão `1.21.3-alpine` sem criar ou rodar um container
+#### 6. Faz o download da imagem `nginx` com a versão `1.21.3-alpine` sem criar ou rodar um container
 
-### 7. Roda um novo container com a imagem  `nginx` com a versão `1.21.3-alpine` em segundo plano nomeando-o como `02images` e mapeando sua porta padrão de acesso para porta `3000` do sistema hospedeiro
+#### 7. Roda um novo container com a imagem  `nginx` com a versão `1.21.3-alpine` em segundo plano nomeando-o como `02images` e mapeando sua porta padrão de acesso para porta `3000` do sistema hospedeiro
 
-### 8. Para o container `02images` que está em andamento
+#### 8. Para o container `02images` que está em andamento
 
-## Dockerfile
+### Dockerfile
 
 **⚠️ As aplicações a seguir contam com um [**README.md**](./docker/todo-app/README.md) próprio!**
 
-### 9. Gera uma build a partir do Dockerfile do `back-end` do `todo-app` nomeando a imagem para `todobackend`
+#### 9. Gera uma build a partir do Dockerfile do `back-end` do `todo-app` nomeando a imagem para `todobackend`
 
-### 10. Gera uma build a partir do Dockerfile do `front-end` do `todo-app` nomeando a imagem para `todofrontend`
+#### 10. Gera uma build a partir do Dockerfile do `front-end` do `todo-app` nomeando a imagem para `todofrontend`
 
-### 11. Gera uma build a partir do Dockerfile dos `testes` do `todo-app` nomeando a imagem para `todotests`
+#### 11. Gera uma build a partir do Dockerfile dos `testes` do `todo-app` nomeando a imagem para `todotests`
 
-## Docker-compose
+### Docker-compose
 
-### 12. Sobe uma orquestração em segundo plano com o docker-compose de forma que `backend`, `frontend` e `tests` consigam se comunicar
+#### 12. Sobe uma orquestração em segundo plano com o docker-compose de forma que `backend`, `frontend` e `tests` consigam se comunicar
 
 
 ## O que eu aprendi com esse projeto?
