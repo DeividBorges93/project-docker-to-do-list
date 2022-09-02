@@ -22,7 +22,7 @@ Para isto, segui os seguintes passos:
     Requisito 3: ./docker/docker-commands/command03.dc
     ```
 
-2. Escrevi neste arquivo o comando do CLI *(Interface de Linha de Comando)* do Docker que resolve o requisito. Um exemplo de fica o arquivo:
+2. Escrevi neste arquivo o comando do CLI *(Interface de Linha de Comando)* do Docker que resolve o requisito. Um exemplo de como fica o arquivo:
 
     ```dc
     docker network inspect bridge
